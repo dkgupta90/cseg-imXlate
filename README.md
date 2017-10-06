@@ -10,4 +10,4 @@ Welcome to the repo for [Graham Ganssle's](https://gra.m-gan.sl) article, *Denoi
 
 The image translation network used in this project was the wonderful [pix2pix](https://github.com/phillipi/pix2pix). Thanks Phillipi! 
 
-Thanks, also, to Steve Purves for building the Earth models provided (in .zip format) in [dat](./dat)! To use these models simply `cd dat/` and `unzip xxx`, where `xxx` is the file name.
+Thanks, also, to Steve Purves for building the Earth models provided (in .zip format) in [dat/zips](./dat/zips)! To use these models simply `cd dat/zips/` and `unzip xxx`, where `xxx` is the file name.

@@ -3,6 +3,7 @@
 Welcome to the repo for [Graham Ganssle's](https://gra.m-gan.sl) article, *Denoising Seismic by Image Translation Networks*, in the CSEG Recorder, January 2018 edition! If you have any questions, please send Graham a message.
 
 ## Setup
+I've included the `prep_images.sh` script to prep the data for you. To run it use `bash prep_images.sh`. It'll create a folder, `dat/pairs`, which has the subdirectories `test`, `train`, and `val`. These three folders are the ones you should use to train your model.
 
 ## Running this code
 

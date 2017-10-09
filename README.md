@@ -3,10 +3,7 @@
 Welcome to the repo for [Graham Ganssle's](https://gra.m-gan.sl) article, *Denoising Seismic by Image Translation Networks*, in the CSEG Recorder, January 2018 edition! If you have any questions, please send Graham a message.
 
 ## Results
-* Check out [this page](outputs/test/index.html) to see the results.
-* Check out [this page](outputs/val/index.html) to see the validation run (long loading times).
-* Check out [this page](outputs/train/index.html) to see a few training samples.
-
+It works!
 
 ## Setup
 To run this code you'll need [Torch7](http://torch.ch/) running on CUDA, and CuDNN. You'll also need [Agile's](https://agilescientific.com/) bruges, which can be installed simply with `pip install bruges`.

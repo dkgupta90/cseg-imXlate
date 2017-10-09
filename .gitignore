@@ -5,4 +5,5 @@ dat/clean_imgs/*
 dat/pairs/*
 dat/output_seismic/*
 
-
+pix2pix/results/*
+pix2pix/checkpoints/*

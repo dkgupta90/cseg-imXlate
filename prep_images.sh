@@ -3,11 +3,13 @@
 cd dat/zips
 
 unzip fault_dyke_fold_model.zip
-mv model/ ../fault_dyke_fold_model.zip
+mv model/ ../fault_dyke_fold_model
 unzip fold_dyke_fault_model.zip
 mv model/ ../fold_dyke_fault_model
 unzip gbasin_simplified_model.zip
 mv model/ ../gbasin_simplified_model
+
+rm -rf __MACOSX/
 
 cd ..
 
@@ -20,7 +22,7 @@ mkdir train test val
 cd ../B
 mkdir train test val
 
-cd ../../img_frmt
+cd ../../../img_frmt
 
 python modeler.py
 python pair_generator.py

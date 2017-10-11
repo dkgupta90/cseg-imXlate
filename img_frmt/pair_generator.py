@@ -28,10 +28,10 @@ for name in glob.glob(inputs):
 
 	# define white noise section
 	errPerc = np.random.rand()
-	temp = np.random.rand(pic.shape[0], pic.shape[1])
+	noise = np.random.rand(pic.shape[0], pic.shape[1])
 
 	# add noise to image
-	noisy = pic + temp * np.max(pic) * errPerc
+	noisy = pic + noise * np.max(pic) * errPerc
 
 	# write out images
 	scipy.misc.imsave(''.join((outclean, str(idx), '.jpg')), pic)
@@ -39,3 +39,6 @@ for name in glob.glob(inputs):
 
 	# count
 	idx += 1
+
+
+

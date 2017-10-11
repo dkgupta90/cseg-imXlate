@@ -4,6 +4,11 @@ Welcome to the repo for [Graham Ganssle's](https://gra.m-gan.sl) article, *Denoi
 
 ## Results
 It works!
+![results](evaluation/network_output.png "results!")
+*The above image is an example output from the denoising network.*
+
+![comparison](evaluation/loss_comparison.png "comparison!")
+*The above image is a comparison of the denoising network with three common denoising filters: total variation, bilateral, and wavelet.*
 
 ## Setup
 To run this code you'll need [Torch7](http://torch.ch/) running on CUDA, and CuDNN. You'll also need [Agile's](https://agilescientific.com/) bruges, which can be installed simply with `pip install bruges`.
